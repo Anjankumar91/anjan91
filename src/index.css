@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
+
+:root {
+  --bg-color: #0b0b0f;
+  --secondary-bg: #15151a;
+  --card-bg: #1e1e24;
+  --text-primary: #ffffff;
+  --text-secondary: #a0a0b0;
+  --accent-color: #3b82f6;
+  /* Modern Blue */
+  --accent-glow: rgba(59, 130, 246, 0.5);
+  --success: #10b981;
+  --font-main: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  /* Ensure body is relative so fixed background works relative to viewport */
+  min-height: 100vh;
+  position: relative;
+  z-index: 0;
+  /* Align stacking context */
+  font-family: var(--font-main);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+.global-spline-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  /* Keep at -1 to stay behind content which should be z-index auto or 1 */
+  pointer-events: none;
+  opacity: 1;
+  /* Full visibility as requested */
+}
+
+.global-spline-bg iframe {
+  /* Force GPU Acceleration for the global background */
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  will-change: transform;
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #60a5fa;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--secondary-bg);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-color);
+}
+
+/* Premium Card Styles */
+.premium-card {
+  position: relative;
+  background-color: hsla(240, 15%, 9%, 1);
+  background-image:
+    radial-gradient(at 88% 40%, hsla(240, 15%, 9%, 1) 0px, transparent 85%),
+    radial-gradient(at 49% 30%, hsla(240, 15%, 9%, 1) 0px, transparent 85%),
+    radial-gradient(at 14% 26%, hsla(240, 15%, 9%, 1) 0px, transparent 85%),
+    radial-gradient(at 0% 64%, hsla(263, 93%, 56%, 1) 0px, transparent 85%),
+    radial-gradient(at 41% 94%, hsla(284, 100%, 84%, 1) 0px, transparent 85%),
+    radial-gradient(at 100% 99%, hsla(306, 100%, 57%, 1) 0px, transparent 85%);
+  box-shadow: 0px -16px 24px 0px rgba(255, 255, 255, 0.25) inset;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  /* pt-6 pr-6 pb-6 pl-6 */
+  transition: all 0.3s ease;
+  overflow: hidden;
+  /* Ensure container doesn't collapse if using flex/grid items */
+  display: flex;
+  flex-direction: column;
+}
+
+.premium-card:hover {
+  background-color: rgba(255, 255, 255, 0.04);
+  /* Optional transform lift on hover to enhance premium feel */
+  transform: translateY(-5px);
+}
+
+/* Rotating Gradient Background Container */
+.premium-bg-container {
+  overflow: hidden;
+  pointer-events: none;
+  position: absolute;
+  z-index: 0;
+  /* Changed from -10 to 0 to be inside card but behind content */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: calc(100% + 2px);
+  height: calc(100% + 2px);
+  background-image: linear-gradient(0deg, hsl(0, 0%, 100%) -50%, hsl(0, 0%, 40%) 100%);
+  border-radius: 1rem;
+  opacity: 0.1;
+  /* Adjust opacity as needed, the user code didn't specify but usually needed */
+  display: none;
+  /* Hiding for now as z-index -10 might be tricky with stacking contexts. */
+}
+
+/* The actual rotator */
+.premium-rotator {
+  content: '';
+  pointer-events: none;
+  position: fixed;
+  /* User code had fixed, but usually absolute ref to parent is better */
+  position: absolute;
+  /* Changed to absolute to stay within card */
+  z-index: 1;
+  /* relative to container */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(0deg);
+  transform-origin: left;
+  width: 200%;
+  height: 10rem;
+  background-image: linear-gradient(0deg, hsla(0, 0%, 100%, 0) 0%, hsl(277, 95%, 60%) 40%, hsl(277, 95%, 60%) 60%, hsla(0, 0%, 40%, 0) 100%);
+  animation: rotate 8s linear infinite;
+}
+
+/* Content wrapper ensuring z-index above background */
+.premium-content {
+  position: relative;
+  z-index: 10;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+@keyframes rotate {
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
