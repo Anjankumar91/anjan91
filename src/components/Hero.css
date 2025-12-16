@@ -30,23 +30,6 @@
     pointer-events: none;
 }
 
-.spline-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-    /* Behind content but check interaction */
-    pointer-events: none;
-    /* Make sure clicks pass through if needed, but Spline might need interaction */
-}
-
-/* If Spline is interactive, we need pointer-events: auto on it, but content must be higher z-index */
-/* Let's assume Spline is background only mainly, but if user wants to rotate it, we need to be careful */
-/* Given "hero background", usually text is over it. */
-/* For now, let's keep it index 0. Content is index 1. */
-
 .hero-content {
     z-index: 2;
     /* Increased to sit above Spline */
@@ -68,11 +51,20 @@
 }
 
 .highlight-text {
-    font-family: 'Cinzel', serif;
-    background: linear-gradient(90deg, #3b82f6 0%, #8b5cf6 100%);
+    font-family: 'Pinyon Script', cursive;
+    font-size: 1.3em;
+    /* Larger script font */
+    font-weight: 400;
+    /* Pinyon is naturally 400 */
+    /* Red touch blending into the existing Blue/Purple */
+    background: linear-gradient(90deg, #ef4444 0%, #3b82f6 50%, #8b5cf6 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    padding-bottom: 10px;
+    /* Prevent descender clipping */
+    display: inline-block;
+    /* Required for padding/transform */
 }
 
 .hero-subtitle {
