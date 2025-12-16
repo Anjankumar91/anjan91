@@ -51,7 +51,7 @@
 }
 
 .highlight-text {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Allura', cursive;
     font-size: 1.3em;
     /* Larger script font */
     font-weight: 400;
@@ -135,5 +135,6 @@
         font-size: 1rem;
     }
 }
+
 
 
