@@ -12,10 +12,10 @@ const Hero = () => {
                 {/* <h1 className="hero-title">
                     Hi, I'm <span className="highlight-text">Your Name</span>
                 </h1> */}
-                <h2 className="hero-subtitle">Data Analyst & Developer</h2>
+                <h2 className="hero-subtitle">AI & Data Solutions Builder</h2>
                 <p className="hero-description">
-                    I transform data into actionable insights and build responsive web applications.
-                    Passionate about Power BI, React, and creating impactful digital experiences.
+                    Transforms data into actionable insights and builds AI-assisted tools and dashboards that solve real problems.  
+     Delivers practical, data-driven solutions using Power BI, AI tools, and no-code platforms.
                 </p>
                 <div className="hero-btns">
                     <a href="#projects" className="btn btn-primary">
@@ -38,3 +38,4 @@ const Hero = () => {
 };
 
 export default Hero;
+
