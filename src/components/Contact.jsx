@@ -1,6 +1,6 @@
 import React from 'react';
 import './Contact.css';
-import { FaEnvelope, FaLinkedin, FaGithub, FaMedium, FaPaperPlane } from 'react-icons/fa';
+import { FaEnvelope, FaLinkedin, FaGithub, FaMedium, FaPaperPlane , FaBriefcase} from 'react-icons/fa';
 import { FiArrowUpRight } from 'react-icons/fi'; // Using Feather icons for the neat arrow
 
 const Contact = () => {
@@ -34,6 +34,13 @@ const Contact = () => {
             icon: <FaBriefcase />,
             link: 'https://datascienceportfol.io/venkatanjan91', // Replace with user link
             action: 'View'
+        },
+        {
+            title: 'Medium',
+            desc: 'Read my blogs here',
+            icon: < FaMedium/>,
+            link: 'https://medium.com/@venkatanjan91', // Replace with user link
+            action: 'Explore'
         }
     ];
 
@@ -79,5 +86,6 @@ const Contact = () => {
 };
 
 export default Contact;
+
 
 
