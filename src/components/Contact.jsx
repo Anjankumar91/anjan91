@@ -29,13 +29,6 @@ const Contact = () => {
             action: 'Mail'
         },
         {
-            title: 'Medium',
-            desc: 'Read my blog posts',
-            icon: <FaMedium />,
-            link: 'https://medium.com/@venkatanjan91', // Replace with user link
-            action: 'Read Articles'
-        },
-        {
             title: 'Portfolio',
             desc: 'View my work and projects',
             icon: <FaBriefcase />,
@@ -86,4 +79,5 @@ const Contact = () => {
 };
 
 export default Contact;
+
 
