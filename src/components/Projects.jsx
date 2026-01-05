@@ -6,14 +6,35 @@ import PremiumCard from './PremiumCard';
 const Projects = () => {
     const projects = [
         {
-            title: 'Project One',
+            title: 'BLINKIT Analysis',
             description: 'A brief description of project one. Detailed insights into what it solves and technologies used.',
-            tech: ['React', 'Node.js', 'MongoDB'],
+            tech: ['Python', 'Node.js', 'MongoDB'],
             github: '#',
             demo: '#',
         },
         {
-            title: 'Project Two',
+            title: 'Walmart-Sales-Analysis-Using-MYSQL',
+            description: 'Another amazing project. Focusing on data visualization and user interaction.',
+            tech: ['Python', 'Pandas', 'Streamlit'],
+            github: 'https://github.com/Venkatanjan91/Walmart-Sales-Analysis-Using-MYSQL',
+            demo: '#',
+        },
+        {
+            title: 'Sales-Customer-Analytics-Dashboard-Using-Excel',
+            description: 'Another amazing project. Focusing on data visualization and user interaction.',
+            tech: ['Excel', 'Pivot Table', 'KPIs','Data Cleaning & Preparation','Data Visualization'],
+            github: 'https://github.com/Venkatanjan91/Sales-Customer-Analytics-Dashboard-Using-Excel',
+            demo: '#',
+        },
+        {
+            title: 'UBER-Analysis-Using-PowerBI',
+            description: 'Another amazing project. Focusing on data visualization and user interaction.',
+            tech: ['Power BI', 'DAX', 'Data Modeling','Data Visualization'],
+            github: 'https://github.com/Venkatanjan91/UBER-Analysis-Using-PowerBI',
+            demo: '#',
+        },
+        {
+            title: 'Walmart-Sales-Analysis-Using-MYSQL',
             description: 'Another amazing project. Focusing on data visualization and user interaction.',
             tech: ['Python', 'Pandas', 'Streamlit'],
             github: '#',
@@ -47,3 +68,4 @@ const Projects = () => {
 };
 
 export default Projects;
+
