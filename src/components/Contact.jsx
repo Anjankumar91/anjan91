@@ -11,29 +11,36 @@ const Contact = () => {
             title: 'GitHub',
             desc: 'Check out my code',
             icon: <FaGithub />,
-            link: 'https://github.com/', // Replace with user link
+            link: 'https://github.com/Venkatanjan91', // Replace with user link
             action: 'View Profile'
         },
         {
             title: 'LinkedIn',
             desc: "Let's connect professionally",
             icon: <FaLinkedin />,
-            link: 'https://linkedin.com/', // Replace with user link
+            link: 'https://www.linkedin.com/in/venkat-anjan-kumar-p/', // Replace with user link
             action: 'Connect'
         },
         {
             title: 'Email',
             desc: 'Send me a message',
             icon: <FaEnvelope />,
-            link: 'mailto:email@example.com',
+            link: 'mailto:venkatanjan91@gmail.com',
             action: 'Mail'
         },
         {
             title: 'Medium',
             desc: 'Read my blog posts',
             icon: <FaMedium />,
-            link: 'https://medium.com/', // Replace with user link
+            link: 'https://medium.com/@venkatanjan91', // Replace with user link
             action: 'Read Articles'
+        },
+        {
+            title: 'Portfolio',
+            desc: 'View my work and projects',
+            icon: <FaBriefcase />,
+            link: 'https://datascienceportfol.io/venkatanjan91', // Replace with user link
+            action: 'View'
         }
     ];
 
@@ -79,3 +86,4 @@ const Contact = () => {
 };
 
 export default Contact;
+
