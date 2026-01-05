@@ -36,13 +36,16 @@ const Skills = () => {
             ]
         },
         {
-            category: 'Tools & Technologies',
+            category: 'Tools & Technologies (Including AI)',
             items: [
                 { name: 'Microsoft Excel', icon: <FaGitAlt /> },
                 { name: 'Power BI Desktop', icon: <FaPython /> },
                 { name: 'Google Colab', icon: <FaChartBar /> },
                 { name: 'MYSQL', icon: <FaChartBar /> },
                 { name: 'VS Code', icon: <FaChartBar /> },
+                { name: 'Julius.ai', icon: <FaChartBar /> },
+                { name: 'Chat-GPT', icon: <FaChartBar /> },
+                { name: 'Gemini', icon: <FaChartBar /> },
             ],
         },
     ];
@@ -71,4 +74,5 @@ const Skills = () => {
 };
 
 export default Skills;
+
 
