@@ -8,7 +8,7 @@ const Projects = () => {
         {
             title: 'BLINKIT Analysis',
             description: 'A brief description of project one. Detailed insights into what it solves and technologies used.',
-            tech: ['Python', 'Node.js', 'MongoDB'],
+            tech: ['Python', 'Data Cleaning', 'Data Analysis','Exploratory Data Analysis (EDA)'],
             github: '#',
             demo: '#',
         },
@@ -34,11 +34,11 @@ const Projects = () => {
             demo: '#',
         },
         {
-            title: 'Walmart-Sales-Analysis-Using-MYSQL',
-            description: 'Another amazing project. Focusing on data visualization and user interaction.',
-            tech: ['Python', 'Pandas', 'Streamlit'],
+            title: 'Decision Impact Simulator',
+            description: 'Simulates future outcomes of user decisions using the Gemini AI API and visualizes possible scenarios for informed choices.',
+            tech: ['AI Tools', 'No-Code Builder', 'Scenario Modeling','Data Visualization','User Input Handling','Decision Analysis'],
             github: '#',
-            demo: '#',
+            demo: 'https://decisix-decision-impact-simulator-606542371422.us-west1.run.app/',
         },
         // Add more projects
     ];
@@ -68,4 +68,5 @@ const Projects = () => {
 };
 
 export default Projects;
+
 
