@@ -6,21 +6,21 @@ import PremiumCard from './PremiumCard';
 const Achievements = () => {
     const achievements = [
         {
-            title: 'Best Data Visualization Award',
-            organization: 'University Hackathon 2023',
-            description: 'Awarded for creating the most insightful interactive dashboard using Power BI.',
+            title: 'Champion Milestone',
+            organization: 'Google Cloud Arcade Facilitator 2024',
+            description: 'Achieved the champion milestone for outstanding performance in the Google Cloud Arcade program.',
             icon: <FaTrophy color="#FFD700" />,
         },
         {
-            title: 'Top 5% in Global Coding Challenge',
-            organization: 'HackerRank',
-            description: 'Ranked in the top 5th percentile out of 50,000+ participants.',
+            title: 'Startup Prototype Submission',
+            organization: 'Scaler x Google for Startups',
+            description: 'Submitted my first startup prototype built using a no-code AI builder as part of the Scaler program in collaboration with Google for Startups.',
             icon: <FaMedal color="#C0C0C0" />,
         },
         {
-            title: 'Employee of the Month',
-            organization: 'Tech Corp Inc.',
-            description: 'Recognized for outstanding contribution to the backend migration project.',
+            title: 'AI & No-Code Exploration',
+            organization: 'Self-Driven',
+            description: 'Regularly experimenting with AI tools and various no-code builders to create projects, automate tasks, and improve productivity.',
             icon: <FaAward color="#CD7F32" />,
         },
     ];
@@ -47,3 +47,4 @@ const Achievements = () => {
 };
 
 export default Achievements;
+
