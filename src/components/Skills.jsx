@@ -9,50 +9,40 @@ const Skills = () => {
         {
             category: 'Data Analysis',
             items: [
-                { name: 'Power BI', icon: <FaChartBar /> },
-                { name: 'Tableau', icon: <FaChartLine /> },
-                { name: 'Python', icon: <FaPython /> },
-                { name: 'SQL', icon: <FaDatabase /> },
                 { name: 'Excel', icon: <FaChartBar /> },
-                { name: 'R', icon: <FaChartLine /> },
+                { name: 'SQL', icon: <FaChartLine /> },
+                { name: 'Python', icon: <FaPython /> },
+                { name: 'EExploratory Data Analysis (EDA)', icon: <FaDatabase /> },
                 { name: 'Statistical Analysis', icon: <FaChartBar /> },
             ],
         },
         {
             category: 'Business Intelligence',
             items: [
-                { name: 'Data Modeling', icon: <FaDatabase /> },
-                { name: 'DAX', icon: <FaChartBar /> },
+                { name: 'Power BI', icon: <FaDatabase /> },
+                { name: 'Dashboard Development', icon: <FaChartBar /> },
+                { name: 'Data Modeling ', icon: <FaChartLine /> },
                 { name: 'Power Query', icon: <FaChartLine /> },
+                { name: 'DAX', icon: <FaChartLine /> },
             ]
         },
         {
-            category: 'Data Engineering',
+            category: 'Data Fundamentals',
             items: [
-                { name: 'ETL', icon: <FaDatabase /> },
+                { name: 'Data Cleaning', icon: <FaDatabase /> },
+                { name: 'ETL Concepts', icon: <FaDatabase /> },
+                { name: 'Relational Databases', icon: <FaDatabase /> },
                 { name: 'Data Warehousing', icon: <FaDatabase /> },
-                { name: 'Azure', icon: <FaDatabase /> },
-                { name: 'Database Design', icon: <FaDatabase /> },
             ]
         },
         {
             category: 'Tools & Technologies',
             items: [
-                { name: 'Git', icon: <FaGitAlt /> },
-                { name: 'Jupyter', icon: <FaPython /> },
+                { name: 'Microsoft Excel', icon: <FaGitAlt /> },
+                { name: 'Power BI Desktop', icon: <FaPython /> },
+                { name: 'Google Colab', icon: <FaChartBar /> },
+                { name: 'MYSQL', icon: <FaChartBar /> },
                 { name: 'VS Code', icon: <FaChartBar /> },
-                { name: 'Microsoft Office', icon: <FaChartBar /> },
-            ],
-        },
-        {
-            category: 'Web Development',
-            items: [
-                { name: 'React', icon: <FaReact /> },
-                { name: 'JavaScript', icon: <FaJs /> },
-                { name: 'HTML5', icon: <FaHtml5 /> },
-                { name: 'CSS3', icon: <FaCss3 /> },
-                { name: 'Tailwind', icon: <SiTailwindcss /> },
-                { name: 'Node.js', icon: <FaNodeJs /> },
             ],
         },
     ];
@@ -81,3 +71,4 @@ const Skills = () => {
 };
 
 export default Skills;
+
