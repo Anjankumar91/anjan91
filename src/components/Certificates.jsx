@@ -6,16 +6,46 @@ import PremiumCard from './PremiumCard';
 const Certificates = () => {
     const certificates = [
         {
-            title: 'Google Data Analytics',
-            issuer: 'Coursera',
-            date: '2023',
-            link: '#',
+            title: 'GGoogle Cloud Data Analytics Certificate',
+            issuer: 'Google Cloud',
+            date: '2024',
+            link: 'https://www.credly.com/badges/413811e7-c88c-4c74-9f6d-f8dd4e1e5b72',
         },
         {
-            title: 'IBM Data Science',
-            issuer: 'Coursera',
-            date: '2022',
-            link: '#',
+            title: 'AI Python for Beginners',
+            issuer: 'DeepLearning.AI',
+            date: '2025',
+            link: 'https://learn.deeplearning.ai/accomplishments/4c2d83fb-1ff6-46e7-84ec-3f26790a7753?usp=sharing',
+        },
+        {
+            title: 'MySQL Data Analysis',
+            issuer: 'Maven Analytics',
+            date: '2025',
+            link: 'https://certificates.mavenanalytics.io/25b1cf57-5f98-4de3-9a14-1e016feb55e3#acc.GLnQ8tW3',
+        },
+        {
+            title: 'Career Essentials in Data Analysis by Microsoft and LinkedIn',
+            issuer: 'Microsoft and LinkedIn',
+            date: '2025',
+            link: 'https://www.linkedin.com/learning/certificates/66e9b91caa5554f0979778cd13b28af2a2eca6a1979413ab04dca75fc951e928?trk=share_certificate',
+        },
+        {
+            title: 'Become a Prompt Engineer',
+            issuer: 'Educative',
+            date: '2025',
+            link: 'https://www.educative.io/verify-certificate/8q5JgjuBZJm2k1N9quEgj4An2k0rUg',
+        },
+        {
+            title: 'Postman API Fundamentals Student Expert',
+            issuer: 'Postman',
+            date: '2025',
+            link: 'https://badgr.com/public/assertions/PpV8sqzLTSiwrm3AZe-NkQ?identity__email=venkatanjan91%40gmail.com',
+        },
+        {
+            title: 'Prompt Engineering & Programming with OpenAI',
+            issuer: 'Columbia+',
+            date: '2025',
+            link: 'https://badges.plus.columbia.edu/26a42072-4d80-4f18-9023-d84f39255639#acc.6VnxGTNY',
         },
     ];
 
@@ -51,3 +81,4 @@ const Certificates = () => {
 };
 
 export default Certificates;
+
