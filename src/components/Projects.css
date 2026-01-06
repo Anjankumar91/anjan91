@@ -28,7 +28,7 @@
 }
 
 .project-title {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-bottom: 0.5rem;
     color: #fff;
 }
@@ -72,4 +72,5 @@
 
 .link-item:hover {
     color: var(--accent-color);
+
 }
