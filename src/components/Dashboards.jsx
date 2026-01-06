@@ -8,8 +8,8 @@ import kobeDashboard from '../assets/kobe-dashboard.png';
 const Dashboards = () => {
     const dashboards = [
         {
-            title: 'Sales Performance Dashboard',
-            description: 'Interactive dashboard tracking sales KPIs across regions and product categories.',
+            title: 'Kobe Bryant Performance Dashboard',
+            description: 'Sports analytics dashboard analyzing Kobe Bryant’s NBA career performance from 1996–2016.',
             imgUrl: kobeDashboard, // Replace with real image
             link: '#',
         },
@@ -49,4 +49,5 @@ const Dashboards = () => {
 };
 
 export default Dashboards;
+
 
