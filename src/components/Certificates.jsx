@@ -6,7 +6,7 @@ import PremiumCard from './PremiumCard';
 const Certificates = () => {
     const certificates = [
         {
-            title: 'GGoogle Cloud Data Analytics Certificate',
+            title: 'Google Cloud Data Analytics Certificate',
             issuer: 'Google Cloud',
             date: '2024',
             link: 'https://www.credly.com/badges/413811e7-c88c-4c74-9f6d-f8dd4e1e5b72',
@@ -47,6 +47,12 @@ const Certificates = () => {
             date: '2025',
             link: 'https://badges.plus.columbia.edu/26a42072-4d80-4f18-9023-d84f39255639#acc.6VnxGTNY',
         },
+        {
+            title: 'Google Cloud Computing Foundations Certificate',
+            issuer: 'Google Cloud',
+            date: '2024',
+            link: 'https://www.credly.com/badges/4473b9fa-73f3-4c6a-923a-1e023f9c2f11',
+        },
     ];
 
     return (
@@ -81,4 +87,5 @@ const Certificates = () => {
 };
 
 export default Certificates;
+
 
