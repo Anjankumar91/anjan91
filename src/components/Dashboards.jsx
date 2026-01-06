@@ -2,13 +2,15 @@ import React from 'react';
 import './Dashboards.css';
 import { FaChartBar } from 'react-icons/fa';
 import PremiumCard from './PremiumCard';
+import kobeDashboard from '../assets/kobe-dashboard.png';
+
 
 const Dashboards = () => {
     const dashboards = [
         {
             title: 'Sales Performance Dashboard',
             description: 'Interactive dashboard tracking sales KPIs across regions and product categories.',
-            imgUrl: 'https://via.placeholder.com/600x400?text=Power+BI+Dashboard+1', // Replace with real image
+            imgUrl: kobeDashboard, // Replace with real image
             link: '#',
         },
         {
@@ -47,3 +49,4 @@ const Dashboards = () => {
 };
 
 export default Dashboards;
+
