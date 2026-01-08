@@ -3,6 +3,7 @@ import './Dashboards.css';
 import { FaChartBar } from 'react-icons/fa';
 import PremiumCard from './PremiumCard';
 import kobeDashboard from '../assets/kobe-dashboard.png';
+import kohliDashboard from '../assets/kohli-dashboard.png';
 
 
 const Dashboards = () => {
@@ -14,9 +15,9 @@ const Dashboards = () => {
             link: '#',
         },
         {
-            title: 'Customer Churn Analysis',
-            description: 'Analysis of customer retention and churn drivers using Power BI.',
-            imgUrl: 'https://via.placeholder.com/600x400?text=Power+BI+Dashboard+2',
+            title: 'Kohli Performance Dashboard',
+            description: 'Sports analytics dashboard analyzing Kohli’s  CRICKET career performance from 2008-2022.',
+            imgUrl: kohliDashboard,
             link: '#',
         },
     ];
@@ -49,5 +50,6 @@ const Dashboards = () => {
 };
 
 export default Dashboards;
+
 
 
