@@ -29,7 +29,7 @@
 }
 
 .dashboard-img {
-    width: auto;
+    width: 100%;
     height: auto;
     object-fit: contain;
     transition: transform 0.3s ease;
@@ -73,6 +73,7 @@
     font-size: 1rem;
 
 }
+
 
 
 
