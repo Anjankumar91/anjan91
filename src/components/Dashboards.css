@@ -20,7 +20,7 @@
 
 .dashboard-img-wrapper {
     width: 100%;
-    height: auto;
+    height: 250px;
     overflow: hidden;
     border-radius: 8px;
     /* Inner radius */
@@ -73,5 +73,6 @@
     font-size: 1rem;
 
 }
+
 
 
