@@ -15,7 +15,7 @@ const Projects = () => {
         {
             title: 'Walmart-Sales-Analysis-Using-MYSQL',
             description: 'Another amazing project. Focusing on data visualization and user interaction.',
-            tech: ['SQL', 'SQL Queries', 'Data Cleaning','Data Analysis],
+            tech: ['SQL', 'SQL Queries', 'Data Cleaning','Data Analysis'],
             github: 'https://github.com/Venkatanjan91/Walmart-Sales-Analysis-Using-MYSQL',
             demo: '#',
         },
@@ -68,6 +68,7 @@ const Projects = () => {
 };
 
 export default Projects;
+
 
 
 
