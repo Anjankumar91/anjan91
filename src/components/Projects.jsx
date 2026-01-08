@@ -6,10 +6,10 @@ import PremiumCard from './PremiumCard';
 const Projects = () => {
     const projects = [
         {
-            title: 'BLINKIT Analysis',
+            title: 'Telecom-Customer-Churn-Analysis',
             description: 'A brief description of project one. Detailed insights into what it solves and technologies used.',
             tech: ['Python', 'Data Cleaning', 'Data Analysis','Exploratory Data Analysis (EDA)'],
-            github: '#',
+            github: 'https://github.com/Venkatanjan91/Telecom-Customer-Churn-Analysis',
             demo: '#',
         },
         {
@@ -68,5 +68,6 @@ const Projects = () => {
 };
 
 export default Projects;
+
 
 
