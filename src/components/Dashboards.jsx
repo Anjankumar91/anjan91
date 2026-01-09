@@ -12,13 +12,13 @@ const Dashboards = () => {
             title: 'Kobe Bryant Performance Dashboard',
             description: 'Sports analytics dashboard analyzing Kobe Bryant’s NBA career performance from 1996–2016.',
             imgUrl: kobeDashboard, // Replace with real image
-            link: '#',
+            link: 'https://github.com/Venkatanjan91/Kobe-Bryant-Career-Analysis-Using-PowerBI',
         },
         {
             title: 'Kohli Performance Dashboard',
             description: 'Sports analytics dashboard analyzing Kohli’s  CRICKET career performance from 2008-2022.',
             imgUrl: kohliDashboard,
-            link: '#',
+            link: 'https://github.com/Venkatanjan91/Kohli-s-Career-Analysis-Using-PowerBI',
         },
     ];
 
@@ -50,6 +50,7 @@ const Dashboards = () => {
 };
 
 export default Dashboards;
+
 
 
 
