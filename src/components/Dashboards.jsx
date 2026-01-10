@@ -25,7 +25,7 @@ const Dashboards = () => {
             title: 'Messi vs Ronaldo Overall Performance Dashboard',
             description: 'Sports analytics dashboard analyzing Messi vs Ronaldo career Performance.',
             imgUrl: MvsRDashboard,
-            link: '#',
+            link: 'https://github.com/Venkatanjan91/Messi-vs-Ronaldo-Analysis-Using-PowerBI',
         },
     ];
 
@@ -57,6 +57,7 @@ const Dashboards = () => {
 };
 
 export default Dashboards;
+
 
 
 
