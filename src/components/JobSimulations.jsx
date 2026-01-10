@@ -16,7 +16,7 @@ const JobSimulations = () => {
             title: 'Machine Learning',
             issuer: 'SmartBridge Educational Services Pvt.Ltd.',
             date: '2024',
-            description: 'Developed a Python-based ML model to predict flight delays with [X]% accuracy using Scikit-learn.',
+            description: 'Developed a Python-based ML model to predict flight delays using Scikit-learn.',
             skills: ['Python', 'Scikit-learn', 'Feature Engineering'],
             link: '#',
         },
@@ -51,4 +51,5 @@ const JobSimulations = () => {
 };
 
 export default JobSimulations;
+
 
