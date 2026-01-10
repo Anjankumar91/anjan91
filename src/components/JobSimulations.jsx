@@ -6,26 +6,25 @@ import PremiumCard from './PremiumCard';
 const JobSimulations = () => {
     const jobSimulations = [
         {
-            title: 'Data Analytics Job Simulation',
-            issuer: 'Forage (Accenture)',
-            date: '2023',
-            description: 'Completed a simulation involving data cleaning, modeling, and visualization to uncover insights for a client.',
-            skills: ['Python', 'Data Visualization', 'Cleaning'],
-            link: '#',
+            title: 'GenAI Powered Data Analytics',
+            issuer: 'Forage (TATA)',
+            date: '2025',
+            description: 'CCompleted a job simulation involving AI-powered data analytics and strategy development for the Financial Services team at Tata iQ.',
+            skills: ['Python', 'Data Visualization', 'AI Analytics','Exploratory Data Analysis'],
         },
         {
-            title: 'Power BI Job Simulation',
-            issuer: 'Forage (PwC)',
-            date: '2023',
-            description: 'Created an interactive dashboard to visualize key performance indicators and retention metrics.',
-            skills: ['Power BI', 'DAX', 'Data Analysis'],
+            title: 'Machine Learning',
+            issuer: 'SmartBridge Educational Services Pvt.Ltd.',
+            date: '2024',
+            description: 'Developed a Python-based ML model to predict flight delays with [X]% accuracy using Scikit-learn.',
+            skills: ['Python', 'Scikit-learn', 'Feature Engineering'],
             link: '#',
         },
     ];
 
     return (
         <section className="job-sim-section" id="job-simulations">
-            <h2 className="section-title">Job Simulation Certificates</h2>
+            <h2 className="section-title">Internships</h2>
             <div className="job-sim-container">
                 {jobSimulations.map((sim, index) => (
                     <PremiumCard className="job-sim-card" key={index}>
@@ -44,9 +43,6 @@ const JobSimulations = () => {
                                 <span key={idx} className="skill-tag">{skill}</span>
                             ))}
                         </div>
-                        <a href={sim.link} className="btn-view" target="_blank" rel="noopener noreferrer">
-                            View Certificate <FaExternalLinkAlt style={{ marginLeft: '5px', fontSize: '0.8em' }} />
-                        </a>
                     </PremiumCard>
                 ))}
             </div>
@@ -55,3 +51,4 @@ const JobSimulations = () => {
 };
 
 export default JobSimulations;
+
