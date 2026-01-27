@@ -30,6 +30,12 @@ const Certificates = () => {
             link: 'https://www.linkedin.com/learning/certificates/66e9b91caa5554f0979778cd13b28af2a2eca6a1979413ab04dca75fc951e928?trk=share_certificate',
         },
         {
+            title: 'Career Essentials in Business Analysis by Microsoft and LinkedIn',
+            issuer: 'Microsoft and LinkedIn',
+            date: '2025',
+            link: 'https://www.linkedin.com/learning/certificates/c742300b9eb64c8da5050fcd77798d2ebfc390705423af3a4579a3030dfbe2c9?trk=share_certificate',
+        },
+        {
             title: 'Become a Prompt Engineer',
             issuer: 'Educative',
             date: '2025',
@@ -87,5 +93,6 @@ const Certificates = () => {
 };
 
 export default Certificates;
+
 
 
