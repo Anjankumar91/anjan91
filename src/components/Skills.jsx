@@ -1,6 +1,6 @@
 import React from 'react';
 import './Skills.css';
-import { FaReact, FaJs, FaHtml5, FaCss3, FaPython, FaGitAlt, FaNodeJs, FaDatabase, FaChartBar, FaChartLine } from 'react-icons/fa';
+import { FaReact, FaJs, FaHtml5, FaCss3, FaPython, FaGitAlt, FaNodeJs, FaDatabase, FaChartBar, FaProjectDiagram, FaBriefcase, FaUsers, FaSearch, FaChartLine } from 'react-icons/fa';
 import { SiTailwindcss, SiFigma } from 'react-icons/si';
 import PremiumCard from './PremiumCard';
 
@@ -83,6 +83,7 @@ const Skills = () => {
 };
 
 export default Skills;
+
 
 
 
