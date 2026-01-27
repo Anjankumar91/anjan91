@@ -27,6 +27,16 @@ const Skills = () => {
             ]
         },
         {
+            category: 'Business Analysis',
+            items: [
+                { name: 'Requirement Gathering', icon: <FaBriefcase /> },
+                { name: 'Stakeholder Management', icon: <FaUsers /> },
+                { name: 'Business Process Mapping', icon: <FaProjectDiagram /> },
+                { name: 'Gap Analysis', icon: <FaSearch /> },
+                { name: 'KPI Definition', icon: <FaChartLine /> },
+            ]
+        },
+        {
             category: 'Data Fundamentals',
             items: [
                 { name: 'Data Cleaning', icon: <FaDatabase /> },
@@ -42,7 +52,6 @@ const Skills = () => {
                 { name: 'Power BI Desktop', icon: <FaPython /> },
                 { name: 'Google Colab', icon: <FaChartBar /> },
                 { name: 'MYSQL', icon: <FaChartBar /> },
-                { name: 'VS Code', icon: <FaChartBar /> },
                 { name: 'Julius.ai', icon: <FaChartBar /> },
                 { name: 'Chat-GPT', icon: <FaChartBar /> },
                 { name: 'Gemini', icon: <FaChartBar /> },
@@ -74,5 +83,6 @@ const Skills = () => {
 };
 
 export default Skills;
+
 
 
